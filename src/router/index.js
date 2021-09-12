@@ -60,12 +60,12 @@ export const constantRoutes = [
     meta: { title: '表格', icon: 'dashboard' },
     children: [{
       path: 'test01',
-      name: 'test01',
+      name: 'Test01',
       component: () => import('@/views/test/test-1/test01'),
       meta: { title: '表格-1', icon: 'dashboard' }
-    },{
+    }, {
       path: 'test02',
-      name: 'test02',
+      name: 'Test02',
       component: () => import('@/views/test/test-2/test02'),
       meta: { title: '表格-2', icon: 'dashboard' }
     }]
