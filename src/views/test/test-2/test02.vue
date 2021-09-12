@@ -1,6 +1,6 @@
 <template>
   <div class="test02">
-    我是测试
+    我在测试适用法
   </div>
 </template>
 
