@@ -14,6 +14,7 @@ export default {
 .test02 {
   margin: 10px;
   width: 100%;
+  height: 100vh;
   background-color: #20a0ff;
 }
 </style>
