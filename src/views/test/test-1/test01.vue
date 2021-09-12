@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import {getTestList} from "@/api/test";
-import TestHead from "@/views/test/commopten/TestHead";
-import TestComment from "@/views/test/commopten/TestComment";
+import { getTestList } from '@/api/test'
+import TestHead from '@/views/test/commopten/TestHead'
+import TestComment from '@/views/test/commopten/TestComment'
 
 export default {
-  name: "test01",
+  name: 'Test01',
   components: {
     TestHead,
     TestComment
@@ -29,12 +29,12 @@ export default {
     getTestList() {
       getTestList().then(res => {
         if (res.code === 20000) {
-          this.tableData = res.data.items;
+          this.tableData = res.data.items
           console.log(this.tableData)
         }
       })
     }
-  },
+  }
 
 }
 </script>
