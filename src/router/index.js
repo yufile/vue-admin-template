@@ -58,19 +58,58 @@ export const constantRoutes = [
     path: '/test/test01',
     component: Layout,
     meta: { title: '表格', icon: 'dashboard' },
-    children: [{
-      path: 'test01',
-      name: 'test01',
-      component: () => import('@/views/test/test-1/test01'),
-      meta: { title: '表格-1', icon: 'dashboard' }
-    },{
-      path: 'test02',
-      name: 'test02',
-      component: () => import('@/views/test/test-2/test02'),
-      meta: { title: '表格-2', icon: 'dashboard' }
-    }]
+    children: [
+      {
+        path: 'test01',
+        name: 'test01',
+        component: () => import('@/views/test/test-1/test01'),
+        meta: { title: '表格-1', icon: 'dashboard' }
+      }, {
+        path: 'test02',
+        name: 'test02',
+        component: () => import('@/views/test/test-2/test02'),
+        meta: { title: '表格-2', icon: 'dashboard' }
+      }]
   },
-
+  {
+    path: '/dialog',
+    component: Layout,
+    redirect: '/dialog/popup',
+    children: [
+      {
+        path: 'popup',
+        name: 'Dialog',
+        component: () => import('@/views/dialog/index'),
+        meta: { title: '弹窗', icon: 'dashboard' }
+      }
+    ]
+  },
+  {
+    path: '/echarts',
+    component: Layout,
+    redirect: '/echarts/popup',
+    children: [
+      {
+        path: 'popup',
+        name: 'Echarts',
+        component: () => import('@/views/echarts/index'),
+        meta: { title: '图表', icon: 'dashboard' }
+      }
+    ]
+  },
+  {
+    path: '/scssLearn',
+    component: Layout,
+    redirect: '/scssLearn/nones',
+    children: [
+      {
+        path: 'nones',
+        name: 'ScssLearn',
+        component: () => import('@/views/scssLearn/index'),
+        meta: { title: '学习scss', icon: 'dashboard' }
+      }
+    ]
+  },
   {
     path: '/example',
     component: Layout,
@@ -164,7 +203,18 @@ export const constantRoutes = [
       }
     ]
   },
-
+  {
+    path: '/antiShake',
+    component: Layout,
+    redirect: '/antiShake/1',
+    children: [
+      {
+        path: '1',
+        component: () => import('@/views/ssss/index'),
+        meta: { title: 'aaaa', icon: 'link' }
+      }
+    ]
+  },
   {
     path: 'external-link',
     component: Layout,

@@ -14,8 +14,11 @@
     "test:ci": "npm run lint && npm run test:unit"
   },
   "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
     "axios": "0.18.1",
     "core-js": "3.6.5",
+    "echarts": "^5.2.1",
     "element-ui": "2.13.2",
     "js-cookie": "2.2.0",
     "normalize.css": "7.0.0",
