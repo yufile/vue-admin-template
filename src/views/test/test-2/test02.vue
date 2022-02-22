@@ -1,6 +1,7 @@
 <template>
   <div class="test02">
     我是测试dadasdasdasdasda
+    <span>sdadsadsadas</span>
   </div>
 </template>
 
