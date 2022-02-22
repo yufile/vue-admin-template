@@ -1,6 +1,6 @@
 {
   "name": "vue-admin-template",
-  "version": "4.4.2",
+  "version": "4.4.3",
   "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
   "author": "Pan <panfree23@gmail.com>",
   "scripts": {
@@ -85,8 +85,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run release",
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "pre-push": "npm run release"
     }
   }
 }
