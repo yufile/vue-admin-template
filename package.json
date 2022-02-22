@@ -85,8 +85,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -e $GIT_PARAMS",
-      "pre-push": "npm run release"
+      "pre-push": "npm run release",
+      "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   }
 }
