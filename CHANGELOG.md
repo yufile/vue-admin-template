@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.4.2](https://github.com/yufile/vue-admin-template/compare/v4.4.1...v4.4.2) (2022-02-22)
+
+
+### Bug Fixes
+
+* sss ([f187b52](https://github.com/yufile/vue-admin-template/commit/f187b52664e45bb455200f36c4f9a5a7bd95e519))
+* sss ([ee784f4](https://github.com/yufile/vue-admin-template/commit/ee784f4f5483afbd74c63c69cb9db324350a11af))
+* sssss ([1aab767](https://github.com/yufile/vue-admin-template/commit/1aab767af78c605aaccc842ebf811494c26a1c53))
+
 ### 4.4.1 (2022-02-22)
 
 
