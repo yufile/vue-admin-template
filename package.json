@@ -1,6 +1,6 @@
 {
   "name": "vue-admin-template",
-  "version": "4.4.5",
+  "version": "5.0.0",
   "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
   "author": "Pan <panfree23@gmail.com>",
   "scripts": {
@@ -11,7 +11,8 @@
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
     "lint": "eslint --ext .js,.vue src",
     "test:unit": "jest --clearCache && vue-cli-service test:unit",
-    "test:ci": "npm run lint && npm run test:unit"
+    "test:ci": "npm run lint && npm run test:unit",
+    "release": "standard-version"
   },
   "dependencies": {
     "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
@@ -26,6 +27,7 @@
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
     "path-to-regexp": "2.4.0",
+    "standard-version": "^9.3.2",
     "vue": "2.6.10",
     "vue-router": "3.0.6",
     "vuex": "3.1.0"
