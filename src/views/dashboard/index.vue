@@ -2,6 +2,8 @@
   <div class="dashboard-container">
     <div class="dashboard-text">name: {{ name }}</div>
     <div>我更改了</div>
+    <div>我更改了</div>
+    <div>我更改了</div>
   </div>
 </template>
 
